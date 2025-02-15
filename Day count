@@ -2,7 +2,7 @@
 
 int main() {
     int a, year, month, day;
-    
+    printf("Enter the number of days= ");
     scanf("%d", &a);
     year = a / 365;
     a = a % 365;
